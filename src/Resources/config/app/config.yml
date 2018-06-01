@@ -1,0 +1,5 @@
+imports:
+    - { resource: '@BeHappySyliusAgeVerificationPlugin/Resources/config/services.yml' }
+
+parameters:
+    be_happy.age_verification.minimal_age: 18

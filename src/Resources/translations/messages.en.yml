@@ -1,0 +1,4 @@
+be_happy:
+    age_verification:
+        too_young: 'You must be over %minimal_age%'
+        date_in_future: 'This date is in the future'

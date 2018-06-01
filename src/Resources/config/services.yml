@@ -1,0 +1,16 @@
+parameters:
+
+services:
+    be_happy.age_verification.form.extension.type.customer_profile:
+        class: BeHappy\SyliusAgeVerificationPlugin\Form\Extension\CustomerProfileTypeExtension
+        tags:
+            - { name: form.type_extension, extended_type: Sylius\Bundle\CustomerBundle\Form\Type\CustomerProfileType }
+        autowire: true
+        autoconfigure: true
+
+    be_happy.age_verification.form.extension.type.customer_registration:
+        class: BeHappy\SyliusAgeVerificationPlugin\Form\Extension\CustomerRegistrationTypeExtension
+        tags:
+            - { name: form.type_extension, extended_type: Sylius\Bundle\CoreBundle\Form\Type\Customer\CustomerRegistrationType }
+        autowire: true
+        autoconfigure: true
