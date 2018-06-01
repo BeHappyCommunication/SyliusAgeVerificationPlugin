@@ -26,7 +26,7 @@ imports:
     - { resource: "@BeHappySyliusAgeVerificationPlugin/Resources/config/app/config.yml" }
 ```
 
-##Front office
+## Front office
 You'll now need to override registration form since the age isn't required by default by Sylius. To do so :
 
 ```twig
@@ -49,12 +49,12 @@ You'll now need to override registration form since the age isn't required by de
 
 This is an example, adapt it to your needs.
 
-#That's it !
+# That's it !
 Now, everytime a customer will try to registrate, the birthday will be required, and must be over 18 (default)
 
 Same for creating a customer in the BackOffice.
 
-#Configuration
+# Configuration
 You can redefine the required age by overriding this parameter :
 
 ```yml
