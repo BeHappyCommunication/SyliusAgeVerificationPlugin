@@ -13,7 +13,7 @@ $ composer require behappy/age-verification-plugin
 public function registerBundles() {
 	$bundles = array(
 		// ...
-		new BeHappy\SyliusAgeVerificationPlugin\BeHappySyliusAgeVerificationPlugin(),
+		new \BeHappy\SyliusAgeVerificationPlugin\BeHappySyliusAgeVerificationPlugin(),
 	);
 	// ...
 }
